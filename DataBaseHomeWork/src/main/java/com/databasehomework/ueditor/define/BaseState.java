@@ -90,6 +90,8 @@ public class BaseState implements State
 	@Override
 	public void putInfo(String name, long val) {
 		this.putInfo(name, val+"");
+		System.out.println("1");
 	}
+	
 
 }
