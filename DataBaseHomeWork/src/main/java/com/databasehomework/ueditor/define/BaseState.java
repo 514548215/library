@@ -92,6 +92,12 @@ public class BaseState implements State
 		this.putInfo(name, val+"");
 		System.out.println("1");
 	}
-	
+
+	@Override
+	public String toJSONString() {
+		return null;
+		System.out.println(123);
+	}
+
 
 }
