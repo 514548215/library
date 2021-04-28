@@ -7,11 +7,13 @@ import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
 
+/*
 import com.baidu.ueditor.PathFormat;
 import com.baidu.ueditor.define.AppInfo;
 import com.baidu.ueditor.define.BaseState;
 import com.baidu.ueditor.define.MultiState;
 import com.baidu.ueditor.define.State;
+*/
 
 public class FileManager {
 
@@ -29,7 +31,7 @@ public class FileManager {
 		
 	}
 	
-	public State listFile ( int index ) {
+	/*public State listFile ( int index ) {
 		
 		File dir = new File( this.dir );
 		State state = null;
@@ -77,7 +79,7 @@ public class FileManager {
 		
 		return state;
 		
-	}
+	}*/
 	
 	private String getPath ( File file ) {
 		

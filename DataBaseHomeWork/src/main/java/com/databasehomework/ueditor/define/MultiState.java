@@ -6,9 +6,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+/*
 import com.baidu.ueditor.Encoder;
 import com.baidu.ueditor.define.AppInfo;
 import com.baidu.ueditor.define.State;
+*/
 
 /**
  * 多状态集合状态
@@ -16,8 +18,7 @@ import com.baidu.ueditor.define.State;
  * @author hancong03@baidu.com
  *
  */
-public class MultiState implements State
-{
+public class MultiState implements State {
 
 	private boolean state = false;
 	private String info = null;
@@ -55,7 +56,7 @@ public class MultiState implements State
 	public void putInfo(String name, String val) {
 		this.infoMap.put(name, val);
 	}
-
+/*
 	@Override
 	public String toJSONString() {
 		
@@ -105,11 +106,16 @@ public class MultiState implements State
 
 		return Encoder.toUnicode( builder.toString() );
 
-	}
+	}*/
 
 	@Override
 	public void putInfo(String name, long val) {
 		this.intMap.put( name, val );
+	}
+
+	@Override
+	public String toJSONString() {
+		return null;
 	}
 
 }

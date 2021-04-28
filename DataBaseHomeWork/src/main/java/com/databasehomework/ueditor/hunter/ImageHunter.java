@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+/*
 import com.baidu.ueditor.PathFormat;
 import com.baidu.ueditor.define.AppInfo;
 import com.baidu.ueditor.define.BaseState;
@@ -15,6 +16,7 @@ import com.baidu.ueditor.define.MIMEType;
 import com.baidu.ueditor.define.MultiState;
 import com.baidu.ueditor.define.State;
 import com.baidu.ueditor.upload.StorageManager;
+*/
 
 /**
  * 图片抓取器
@@ -42,7 +44,7 @@ public class ImageHunter {
 		
 	}
 	
-	public State capture ( String[] list ) {
+/*	public State capture ( String[] list ) {
 		
 		MultiState state = new MultiState( true );
 		
@@ -52,9 +54,9 @@ public class ImageHunter {
 		
 		return state;
 		
-	}
+	}*/
 
-	public State captureRemoteData ( String urlStr ) {
+	/*public State captureRemoteData ( String urlStr ) {
 		
 		HttpURLConnection connection = null;
 		URL url = null;
@@ -102,13 +104,13 @@ public class ImageHunter {
 			return new BaseState( false, AppInfo.REMOTE_FAIL );
 		}
 		
-	}
+	}*/
 	
-	private String getPath ( String savePath, String filename, String suffix  ) {
+/*	private String getPath ( String savePath, String filename, String suffix  ) {
 		
 		return PathFormat.parse( savePath + suffix, filename );
 		
-	}
+	}*/
 	
 	private boolean validHost ( String hostname ) {
 		try {

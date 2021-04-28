@@ -15,8 +15,7 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/books")
-public class BookController
-{
+public class BookController {
     @Autowired
     BookService bookService;
     @RequestMapping("findAllBook")

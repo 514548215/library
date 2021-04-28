@@ -13,7 +13,7 @@ import java.util.Map;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.baidu.ueditor.define.ActionMap;
+/*import com.baidu.ueditor.define.ActionMap;*/
 
 /**
  * 配置管理器
@@ -81,7 +81,7 @@ public final class ConfigManager {
 		
 	}
 	
-	public Map<String, Object> getConfig ( int type ) {
+	/*public Map<String, Object> getConfig ( int type ) {
 		
 		Map<String, Object> conf = new HashMap<String, Object>();
 		String savePath = null;
@@ -147,7 +147,7 @@ public final class ConfigManager {
 		
 		return conf;
 		
-	}
+	}*/
 	
 	private void initEnv () throws FileNotFoundException, IOException {
 		

@@ -4,6 +4,7 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
+/*
 import com.baidu.ueditor.ConfigManager;
 import com.baidu.ueditor.define.ActionMap;
 import com.baidu.ueditor.define.AppInfo;
@@ -12,6 +13,8 @@ import com.baidu.ueditor.define.State;
 import com.baidu.ueditor.hunter.FileManager;
 import com.baidu.ueditor.hunter.ImageHunter;
 import com.baidu.ueditor.upload.Uploader;
+import com.databasehomework.ueditor.hunter.FileManager;
+*/
 
 public class ActionEnter {
 	
@@ -34,7 +37,7 @@ public class ActionEnter {
 		
 	}
 	
-	public String exec () {
+	/*public String exec () {
 		
 		String callbackName = this.request.getParameter("callback");
 		
@@ -50,9 +53,9 @@ public class ActionEnter {
 			return this.invoke();
 		}
 
-	}
+	}*/
 	
-	public String invoke() {
+	/*public String invoke() {
 		
 		if ( actionType == null || !ActionMap.mapping.containsKey( actionType ) ) {
 			return new BaseState( false, AppInfo.INVALID_ACTION ).toJSONString();
@@ -98,7 +101,7 @@ public class ActionEnter {
 		
 		return state.toJSONString();
 		
-	}
+	}*/
 	
 	public int getStartIndex () {
 		

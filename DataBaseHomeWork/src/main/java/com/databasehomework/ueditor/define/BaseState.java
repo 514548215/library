@@ -4,9 +4,11 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+/*
 import com.baidu.ueditor.Encoder;
 import com.baidu.ueditor.define.AppInfo;
 import com.baidu.ueditor.define.State;
+*/
 
 public class BaseState implements State
 {
@@ -50,7 +52,7 @@ public class BaseState implements State
 		this.info = AppInfo.getStateInfo( infoCode );
 	}
 	
-	@Override
+/*	@Override
 	public String toJSONString() {
 		return this.toString();
 	}
@@ -78,7 +80,7 @@ public class BaseState implements State
 
 		return Encoder.toUnicode( builder.toString() );
 
-	}
+	}*/
 
 	@Override
 	public void putInfo(String name, String val) {
